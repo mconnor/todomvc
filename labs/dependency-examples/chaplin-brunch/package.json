@@ -20,7 +20,7 @@
     "handlebars-brunch": ">= 1.0 < 1.8",
 
     "uglify-js-brunch": ">= 1.0 < 1.8",
-    "clean-css-brunch": ">= 1.0 < 1.8"
+    "clean-css-brunch": ">=3.0.0"
   },
   "devDependencies": {
     "chai": "~1.2.0",
