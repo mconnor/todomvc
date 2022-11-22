@@ -15,7 +15,7 @@
 		"start": "node app.js"
 	},
 	"dependencies": {
-		"socketstream": "0.3.x",
+		"socketstream": "0.5.0",
 		"ss-stylus": "0.1.x",
 		"ss-hogan": "0.1.x"
 	}
