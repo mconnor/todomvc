@@ -17,7 +17,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<resourcesDir>${project.basedir}/src/main/resources</resourcesDir>
 
-		<staticapps.version>0.8.5</staticapps.version>
+		<staticapps.version>0.9.0</staticapps.version>
 		<merge.version>0.5.2</merge.version>
 		<duel.version>0.8.2</duel.version>
 		<slf4j.version>1.6.4</slf4j.version>
