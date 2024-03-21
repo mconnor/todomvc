@@ -1,0 +1,114 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - derby > racer > connect > debug:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:debug:20170905'
+        path: derby > racer > connect > debug
+    - derby > racer > connect > body-parser > debug:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:debug:20170905'
+        path: derby > racer > connect > body-parser > debug
+    - derby > racer > connect > compression > debug:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:debug:20170905'
+        path: derby > racer > connect > compression > debug
+    - derby > racer > connect > connect-timeout > debug:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:debug:20170905'
+        path: derby > racer > connect > connect-timeout > debug
+    - derby > racer > connect > express-session > debug:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:debug:20170905'
+        path: derby > racer > connect > express-session > debug
+    - derby > racer > connect > finalhandler > debug:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:debug:20170905'
+        path: derby > racer > connect > finalhandler > debug
+    - derby > racer > connect > morgan > debug:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:debug:20170905'
+        path: derby > racer > connect > morgan > debug
+    - derby > racer > connect > serve-index > debug:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:debug:20170905'
+        path: derby > racer > connect > serve-index > debug
+    - derby > racer > connect > serve-static > send > debug:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:debug:20170905'
+        path: derby > racer > connect > serve-static > send > debug
+  'npm:mime:20170907':
+    - derby > racer > connect > serve-static > send > mime:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:mime:20170907'
+        path: derby > racer > connect > serve-static > send > mime
+  'npm:ms:20170412':
+    - derby > racer > connect > debug > ms:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:ms:20170412'
+        path: derby > racer > connect > debug > ms
+    - derby > racer > connect > connect-timeout > ms:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:ms:20170412'
+        path: derby > racer > connect > connect-timeout > ms
+    - derby > racer > connect > body-parser > debug > ms:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:ms:20170412'
+        path: derby > racer > connect > body-parser > debug > ms
+    - derby > racer > connect > compression > debug > ms:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:ms:20170412'
+        path: derby > racer > connect > compression > debug > ms
+    - derby > racer > connect > connect-timeout > debug > ms:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:ms:20170412'
+        path: derby > racer > connect > connect-timeout > debug > ms
+    - derby > racer > connect > express-session > debug > ms:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:ms:20170412'
+        path: derby > racer > connect > express-session > debug > ms
+    - derby > racer > connect > finalhandler > debug > ms:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:ms:20170412'
+        path: derby > racer > connect > finalhandler > debug > ms
+    - derby > racer > connect > morgan > debug > ms:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:ms:20170412'
+        path: derby > racer > connect > morgan > debug > ms
+    - derby > racer > connect > serve-index > debug > ms:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:ms:20170412'
+        path: derby > racer > connect > serve-index > debug > ms
+    - derby > racer > connect > serve-static > send > ms:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:ms:20170412'
+        path: derby > racer > connect > serve-static > send > ms
+    - derby > racer > connect > serve-static > send > debug > ms:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:ms:20170412'
+        path: derby > racer > connect > serve-static > send > debug > ms
+    - derby > racer > connect > serve-favicon > ms:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:ms:20170412'
+        path: derby > racer > connect > serve-favicon > ms
+  'npm:negotiator:20160616':
+    - derby > racer > connect > compression > accepts > negotiator:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:negotiator:20160616'
+        path: derby > racer > connect > compression > accepts > negotiator
+    - derby > racer > connect > serve-index > accepts > negotiator:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:negotiator:20160616'
+        path: derby > racer > connect > serve-index > accepts > negotiator
+  'npm:ws:20160920':
+    - derby > racer > socket.io-client > ws:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:ws:20160920'
+        path: derby > racer > socket.io-client > ws
+    - derby > racer > socket.io > socket.io-client > ws:
+        patched: '2024-03-21T16:40:33.752Z'
+        id: 'npm:ws:20160920'
+        path: derby > racer > socket.io > socket.io-client > ws
